@@ -1,4 +1,42 @@
+:root {
+    --green: #628a0d;
+}
+
 body {
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-bottom: 0.2rem;
+    font-weight: 700;
+}
+
+h2 {
+    margin-bottom: 0.2rem;
+    margin-top: 3rem;
+
+    font-weight: 500;
+}
+
+h3 {
+    margin-top: 0.2rem;
+    color: gray;
+
+    font-weight: 400;
+    text-indent: 1rem;
+}
+
+p {
+    text-indent: 1rem;
+}
+
+b {
+    color: var(--green);
+}
+
+img {
+    background-color: black;
+    outline: 2px solid var(--green);
+    max-width: 100%;
 }
